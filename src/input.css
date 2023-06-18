@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .size-selector input:checked + label {
+        @apply bg-dyna text-red-700 border-dyna
+    }
+}
+@layer components {
+    .color-selector input:checked + label {
+        @apply ring-2 ring-dyna ring-offset-0
+    }
+
+}
